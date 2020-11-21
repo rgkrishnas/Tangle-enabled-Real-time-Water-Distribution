@@ -26,4 +26,4 @@ Detect the water consumption in real-time and make auto payment as pay per use, 
 ## Demo Video
 
 ## Contacts
-[Gopal](rgkrishnas@gmail.com)
+Gopal (rgkrishnas@gmail.com)
