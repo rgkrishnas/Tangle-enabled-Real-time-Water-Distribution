@@ -5,7 +5,7 @@ Detect the water consumption in real-time and make auto payment as pay per use, 
 ![Architecture](images/flow_diagram.JPG)
 
 ## Require Hardware
-  1. YF-Water Flow Sensor(https://robu.in/product/yf-s201-water-flow-measurement-sensor-with-1-30liter-min-flow-rate-2/?gclid=Cj0KCQiAkuP9BRCkARIsAKGLE8UxgRBkIr7N0A73nVRC6L-rj1wSw8ms-no1rjBF1aaWUuvCUBeDVyIaAiO2EALw_wcB)
+  1. [YF-Water Flow Sensor](https://robu.in/product/yf-s201-water-flow-measurement-sensor-with-1-30liter-min-flow-rate-2/?gclid=Cj0KCQiAkuP9BRCkARIsAKGLE8UxgRBkIr7N0A73nVRC6L-rj1wSw8ms-no1rjBF1aaWUuvCUBeDVyIaAiO2EALw_wcB)
      Approx. cost 300 INR
   2. Raspberry Pi (We can do it in ESP32 as well - just for PoC we used Pi)
 
@@ -26,4 +26,4 @@ Detect the water consumption in real-time and make auto payment as pay per use, 
 ## Demo Video
 
 ## Contacts
-rgkrishnas@gmail.com
+[Gopal](rgkrishnas@gmail.com)
