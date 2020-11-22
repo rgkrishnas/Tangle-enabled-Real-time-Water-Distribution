@@ -13,7 +13,7 @@ Detect the water consumption in real-time and make auto payment as pay per use, 
     - RED wire  to Pi 5V
     - Black wire to Pi GND
     - Yellow wire to Pi GPIO23
-    ![Wiring Diagram](images/Pi2WaterFlowSensor.JPG)
+![Wiring Diagram](images/Pi2WaterFlowSensor.JPG)
 ## Edge device installation
    1. [Streams-mqtt-gateway](https://github.com/iot2tangle/Streams-mqtt-gateway)
    2. Install mqtt python library
