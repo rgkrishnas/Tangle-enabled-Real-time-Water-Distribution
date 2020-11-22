@@ -14,12 +14,14 @@ Detect the water consumption in real-time and make auto payment as pay per use, 
     - Black wire to Pi GND
     - Yellow wire to Pi GPIO23
 ![Wiring Diagram](images/Pi2WaterFlowSensor.JPG)
-## Edge device installation
+## Edge device installation and configuration
    1. [Streams-mqtt-gateway](https://github.com/iot2tangle/Streams-mqtt-gateway)
    2. Install mqtt python library
-       sudo pip install phao-mqtt
-   3. Clone our [project](https://github.com/rgkrishnas/Tangle-enabled-Real-time-Water-Distribution)
-   4. Install [pyota](https://github.com/iotaledger/iota.py) if python2 is default try to install "sudo pip3 install pyota"
+       - $ sudo pip install phao-mqtt
+   3. Edit the config.json file and update the host name
+   4. Clone our [project](https://github.com/rgkrishnas/Tangle-enabled-Real-time-Water-Distribution)
+   5. Edit the config.py file and update the MQTT host name, user id, password and message topic
+   6. Install [pyota](https://github.com/iotaledger/iota.py) if python2 is default try to install "sudo pip3 install pyota"
    
 ### How to run the program and sample output
 1. Power the Pi 
