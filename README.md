@@ -1,12 +1,12 @@
 # Tangle enabled Real-time Water Distribution
-## A Smart IoTA Tangle based Tamper-proof water distribution metering and Payment System.
+## A Smart IOTA Tangle based Tamper-proof water distribution metering and Payment System.
 Fresh water availability is taking a serious hit world-wide and is considered to be one of the main reasons that would trigger a third world war.
-The existing water distribution systems in existance does not have exact and real-time monitoring of water usage and metering is often done on average or approximate use. This PoC demonstrates the use of sensors to monitor real-time water usage along with integration with IoTA tangle to enable tamper proof data management with payment integration.
+The existing water distribution systems in existance does not have exact and real-time monitoring of water usage and metering is often done on average or approximate use. This PoC demonstrates the use of sensors to monitor real-time water usage along with integration with IOTA tangle to enable tamper proof data management with payment integration.
 ## Brief Overview
-The Waterflow sensors stream waterflow to a procesing unit(Raspberry Pi used in this PoC). A python program runs to calculate the consumption and stores locally as well as streams to a http gateway. User can check the real-time water consumption or the accumulated consumption at any point of time. During the billing cycle the charges for consumption is calculated in IoTA tokens and sent to the users client app. User can clear the dues which gets updated in IoTA wallet.
+The Waterflow sensors stream waterflow to a procesing unit(Raspberry Pi used in this PoC). A python program runs to calculate the consumption and stores locally as well as streams to a http gateway. User can check the real-time water consumption or the accumulated consumption at any point of time. During the billing cycle the charges for consumption is calculated in IOTA tokens and sent to the users client app. User can clear the dues which gets updated in IOTA wallet.
 ## Advantages
 1. Real-time monitoring triggers alarms on water wastage due to possible leaks
-2. Tamper-proof data management due to use of IoTA tangle technology
+2. Tamper-proof data management due to use of IOTA tangle technology
 3. Smart system with exact real-time consumption measurements and automatic payment as pay per use
 ## Water Distribution ecosystem (Reference Architecture)
 ![Architecture](images/flow_diagram.JPG)
