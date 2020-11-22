@@ -8,4 +8,4 @@ port = 1883  # MQTT port number
 user = ''  # MQTT user id if available
 password = '' # MQTT password if available
 topic = 'iot2tangle'  # MQTT message topic 
-#myseed='EnteryourwalletSeed'
+myseed='EnteryourwalletSeed'
