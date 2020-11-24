@@ -17,7 +17,7 @@ The Waterflow sensors stream waterflow to a procesing unit(Raspberry Pi used in 
   1. [YF-Water Flow Sensor](https://robu.in/product/yf-s201-water-flow-measurement-sensor-with-1-30liter-min-flow-rate-2/?gclid=Cj0KCQiAkuP9BRCkARIsAKGLE8UxgRBkIr7N0A73nVRC6L-rj1wSw8ms-no1rjBF1aaWUuvCUBeDVyIaAiO2EALw_wcB)
      Approx. cost 300 INR
   2. [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/?resellerType=home) (We can do it in ESP32 as well - just for PoC we used Pi)
-  3. Three strand jumper wire set (male to female)
+  3. Three strand [jumper wire set](https://robu.in/product/male-to-female-jumper-wires-40-pin-40cm/) (male to female)
 
 ## Schematics Diagram 
 #### Wiring Connections between YF-Water flow Sensor and Pi
