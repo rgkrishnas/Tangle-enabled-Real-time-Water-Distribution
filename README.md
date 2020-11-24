@@ -8,7 +8,7 @@ The Waterflow sensors stream waterflow to a procesing unit(Raspberry Pi used in 
 1. Real-time monitoring triggers alarms on water wastage due to possible leaks
 2. Tamper-proof data management due to use of IOTA tangle technology
 3. Smart system with exact real-time consumption measurements and automatic payment as pay per use
-4. Simple and Easy to implement
+4. Simple and easy to install
 5. Low cost sensor and hardware.
 ## Reference Architecture -(Water Distribution ecosystem)
 ![Architecture](images/flow_diagram.JPG)
