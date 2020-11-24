@@ -8,7 +8,9 @@ The Waterflow sensors stream waterflow to a procesing unit(Raspberry Pi used in 
 1. Real-time monitoring triggers alarms on water wastage due to possible leaks
 2. Tamper-proof data management due to use of IOTA tangle technology
 3. Smart system with exact real-time consumption measurements and automatic payment as pay per use
-## Water Distribution ecosystem (Reference Architecture)
+4. Simple and Easy to implement
+5. Low cost sensor and hardware.
+## Reference Architecture -(Water Distribution ecosystem)
 ![Architecture](images/flow_diagram.JPG)
 
 ## Require Hardware (BoM)
@@ -35,14 +37,12 @@ The Waterflow sensors stream waterflow to a procesing unit(Raspberry Pi used in 
 1. Power the Pi 
 2. Go to the Streams-mqtt-gateway folder and start run
    - $ cargo run --release
-   Copy the seed for verification
+   Copy the return seed for verification in tangle
 3. Go to our project directory "Tangle-enabled-Real-time ...." where you cloned and run the below command
    - $ python3 waterflowsensor.py
 4. Open the Valve (once the water flow is happened you could see the consumed water quantity in litters)
 5. A payment request will be initiated based on some litters/gallon threashold value
 6. Edge device will make the payment with the real-time consumed water.
-
-## Payment system
 
 ## Demo Video
 
