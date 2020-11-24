@@ -11,12 +11,13 @@ The Waterflow sensors stream waterflow to a procesing unit(Raspberry Pi used in 
 ## Water Distribution ecosystem (Reference Architecture)
 ![Architecture](images/flow_diagram.JPG)
 
-## Require Hardware
+## Require Hardware (BoM)
   1. [YF-Water Flow Sensor](https://robu.in/product/yf-s201-water-flow-measurement-sensor-with-1-30liter-min-flow-rate-2/?gclid=Cj0KCQiAkuP9BRCkARIsAKGLE8UxgRBkIr7N0A73nVRC6L-rj1wSw8ms-no1rjBF1aaWUuvCUBeDVyIaAiO2EALw_wcB)
      Approx. cost 300 INR
-  2. Raspberry Pi (We can do it in ESP32 as well - just for PoC we used Pi)
+  2. [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/?resellerType=home) (We can do it in ESP32 as well - just for PoC we used Pi)
 
-## Wiring Connections between YF-Water flow Sensor and Pi
+## Schematics Diagram 
+#### Wiring Connections between YF-Water flow Sensor and Pi
     - RED wire  to Pi 5V
     - Black wire to Pi GND
     - Yellow wire to Pi GPIO23
