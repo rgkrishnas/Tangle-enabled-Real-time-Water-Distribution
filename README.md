@@ -41,8 +41,8 @@ The Waterflow sensors stream waterflow to a procesing unit(Raspberry Pi used in 
    Copy the return seed for verification in tangle
 3. Go to our project directory "Tangle-enabled-Real-time ...." where you cloned and run the below command
    - $ python3 waterflowsensor.py
-4. Open the Valve (once the water flow is happened you could see the consumed water quantity in litters)
-5. A payment request will be initiated based on some litters/gallon threashold value
+4. Open the Valve (once the water flow is happened you could see the consumed water quantity in liters)
+5. A payment request will be initiated based on some liters/gallon threashold value
 6. Edge device will make the payment with the real-time consumed water.
 
 ## Demo Video
