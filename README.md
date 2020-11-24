@@ -46,7 +46,7 @@ The Waterflow sensors stream waterflow to a procesing unit(Raspberry Pi used in 
 6. Edge device will make the payment with the real-time consumed water.
 
 ## Demo Video
-[![Working Prototype Demo](images/VideoThumb.png)](https://youtu.be/EH2FJtxiFEA)
+[![Working Prototype Demo](images/VideoThumb.png)](https://youtu.be/EH2FJtxiFEA){:target="_blank"}
 
 ## Contacts
 Gopal (rgkrishnas@gmail.com)
