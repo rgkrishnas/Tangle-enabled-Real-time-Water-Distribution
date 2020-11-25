@@ -61,7 +61,7 @@ GPIO.add_event_detect(FLOW_SENSOR, GPIO.FALLING, callback=countPulse)
 
 ### The below function will publish the data into MQTT for I2T through "streams-mqtt-gateway" module
 def publish2mq(value):
-    #e.g. value ='{ "iot2tangle": [ { "sensor": "waterconsumed", "data": ["10 litters"] } ], "device": "DEVICE_ID_1", "timestamp": '+str(time.time())+' }'
+    #e.g. value ='{ "iot2tangle": [ { "sensor": "waterconsumed", "data": ["10 liters"] } ], "device": "DEVICE_ID_1", "timestamp": '+str(time.time())+' }'
     client.publish(config.topic,value)
 while True:
     try:
