@@ -8,4 +8,6 @@ port = 1883  # MQTT port number
 user = ''  # MQTT user id if available
 password = '' # MQTT password if available
 topic = 'iot2tangle'  # MQTT message topic 
-myseed='EnteryourwalletSeed'
+water_measurements='litters'  # litters/gallons
+water_dept_wallet_address = 'EnterAddressTowhomWalletMachineNeedsToPay' # to who the system needs to make the payment
+mywatersensor_seed='EnterYourWaterSensorwalletSeed'
