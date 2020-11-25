@@ -23,5 +23,4 @@ def payment_transfer(transfer_address):
     pprint('Broadcasted bundle:')
     pprint(response['bundle'].as_json_compatible())
     
-#payment_transfer(b'JHDBWJ9CKMEYTEIFDRTMGDQOTCBLRB9KGDQCW9T9EXABLSOYCRKOLVSJINDRYKPMANXIVL9ZVVLHJJAZZOOQT9VYMA') # to Smart Water Sensor wallet
-#payment_transfer(b'ONLAEMBTHIEIDSEIKNDZXDCIJVCRMKPXLYADRVLDEAYHUTGOKPQAQ9PQOYXXZTLQFPVIAFSQYNFBUDGZBXBBLAMHID') # to Water dept
+#payment_transfer(b'WaterDeptWalletAddressForFundTransfer') # sample address for Water dept
