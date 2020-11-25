@@ -40,7 +40,7 @@ The Waterflow sensors stream waterflow to a procesing unit(Raspberry Pi used in 
 2. Go to the Streams-mqtt-gateway folder and start run
    - $ cargo run --release
    Copy the return seed for verification in tangle
-3. Go to our project directory "Tangle-enabled-Real-time ...." where you cloned and run the below command
+3. Go to our project directory "Tangle-enabled-Real-time ..../src" where you cloned and run the below command
    - $ python3 waterflowsensor.py
 4. Open the Valve (once the water flow is happened you could see the consumed water quantity in liters)
 5. A payment request will be initiated based on some liters/gallon threashold value
