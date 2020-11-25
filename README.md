@@ -46,7 +46,7 @@ The Waterflow sensors stream waterflow to a processing unit(Raspberry Pi used in
 5. A payment request will be initiated based on a threshold value calculated in liters/gallons
 6. Edge device will make the payment for the real-time water consumption.
 
-## Demo Video
+## PoC Demo Video
 [![Working Prototype Demo](images/VideoThumb.png)](https://youtu.be/EH2FJtxiFEA)
 
 ## Contacts
