@@ -27,14 +27,14 @@ The Waterflow sensors stream waterflow to a processing unit(Raspberry Pi used in
 ![Wiring Diagram](images/Pi2WaterFlowSensor.JPG)
 
 ## Edge device installation/Configuration/How to execute the program
-   1. Install [Raspberry Pi OS](https://www.raspberrypi.org/software/) - prefered OS is Buster 
+   1. Install [Raspberry Pi OS](https://www.raspberrypi.org/software/) - preferred OS is Buster 
    2. Power on the raspberry Pi
    3. Connect the Pi through SSH or desktop monitor
    4. Start installing IOTA dependency libraries and Smart Metering Programs
-   * Install [Streams-mqtt-gateway](https://github.com/iot2tangle/Streams-mqtt-gateway) follow the link and install all dependencyies 
+   * Install [Streams-mqtt-gateway](https://github.com/iot2tangle/Streams-mqtt-gateway) follow the link and install all dependencies 
      * Go to the Streams-mqtt-gateway folder 
      * Edit the config.json file and update the host name
-     * Start the Stream-mqtt-gatway
+     * Start the Stream-mqtt-gateway
        - $ cargo run --release
        - Copy the return seed for verification in tangle
        ![Output will be like](images/Screenshot1.2_streams-mqtt.JPG)
@@ -48,8 +48,8 @@ The Waterflow sensors stream waterflow to a processing unit(Raspberry Pi used in
      * Run the below command for water consumption reading and auto payment
        - $ python3 waterflowsensor.py 
        ![Output will be like](images/Screenshot2.1_waterFlowMeasure.JPG)
-   5. Open the Valve which is connected in the wafter flow sensor (once the water flow is happened you could see the consumed water quantity in liters)
-   6. A payment request will be initiated based on some liters/gallon threashold value
+   5. Open the Valve which is connected in the water flow sensor (once the water flow is happened you could see the consumed water quantity in litre)
+   6. A payment request will be initiated based on some litres/gallon threshold  value
    7. Edge device will make the payment with the real-time consumed water.  
 
 ## PoC Demo Video
