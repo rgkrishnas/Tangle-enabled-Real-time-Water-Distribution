@@ -48,9 +48,9 @@ The Waterflow sensors stream waterflow to a processing unit(Raspberry Pi used in
      * Run the below command for water consumption reading and auto payment
        - $ python3 waterflowsensor.py 
        ![Output will be like](images/Screenshot2.1_waterFlowMeasure.JPG)
-   5. Open the Valve which is connected in the water flow sensor (once the water flow is happened you could see the consumed water quantity in litre)
-   6. A payment request will be initiated based on some litres/gallon threshold  value
-   7. Edge device will make the payment with the real-time consumed water.  
+   5. Open the Valve which is connected in the water flow sensor (once the water flow is happened you could see the consumed water quantity in liter)
+   6. A payment request will be initiated based on the set threshold value liters/gallon (Hardcoded as 1i for PoC purposes)
+   7. Edge device will make the payment with the real-time water consumption.  
 
 ## PoC Demo Video
 [![Working Prototype Demo](images/VideoThumb.png)](https://youtu.be/EH2FJtxiFEA)
