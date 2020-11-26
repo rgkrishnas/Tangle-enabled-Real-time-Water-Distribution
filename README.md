@@ -1,4 +1,3 @@
-#### (Work in progress)
 # Tangle enabled Real-time Water Distribution
 ## A Smart IOTA Tangle based Tamper-proof water distribution metering and Payment System.
 Fresh water availability is taking a serious hit world-wide and is considered to be one of the main reasons that would trigger a third world war.
@@ -39,16 +38,16 @@ The Waterflow sensors stream waterflow to a processing unit(Raspberry Pi used in
        - $ cargo run --release
        - Copy the return seed for verification in tangle
        ![Output will be like](images/Screenshot1.2_streams-mqtt.JPG)
-     * **Install mqtt python library
+     * **Install mqtt python library**
        - $ sudo pip install phao-mqtt
      * Install [pyota](https://github.com/iotaledger/iota.py) - if python2 is default try to install 
        - $ "sudo pip3 install pyota"
-     * **Clone our [project repo](https://github.com/rgkrishnas/Tangle-enabled-Real-time-Water-Distribution)
+     * **Clone our [project repo](https://github.com/rgkrishnas/Tangle-enabled-Real-time-Water-Distribution) **
      * Open another console and go to smart metering project directory "Tangle-enabled-Real-time ..../src" in Pi 
      * Edit the config.py file and update the MQTT host name, user id, password and message topic
      * Run the below command for water consumption reading and auto payment
        - $ python3 waterflowsensor.py 
-       ![Output will be like](images/Screenshot2_waterFlowMeasure.JPG)
+       ![Output will be like](images/Screenshot2.1_waterFlowMeasure.JPG)
    5. Open the Valve which is connected in the wafter flow sensor (once the water flow is happened you could see the consumed water quantity in liters)
    6. A payment request will be initiated based on some liters/gallon threashold value
    7. Edge device will make the payment with the real-time consumed water.  
