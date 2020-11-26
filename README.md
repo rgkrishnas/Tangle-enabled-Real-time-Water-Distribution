@@ -26,26 +26,27 @@ The Waterflow sensors stream waterflow to a processing unit(Raspberry Pi used in
     - Black wire to Pi GND
     - Yellow wire to Pi GPIO23
 ![Wiring Diagram](images/Pi2WaterFlowSensor.JPG)
-## Edge device installation and configuration
+
+## Edge device installation/Configuration/How to execute the program
    1. Install [Raspberry Pi OS](https://www.raspberrypi.org/software/) - prefered OS is Buster 
    2. Power on the raspberry Pi
    3. Connect the Pi through SSH or desktop monitor
    4. Start installing IOTA dependency libraries and Smart Metering Programs
-   a. Install [Streams-mqtt-gateway](https://github.com/iot2tangle/Streams-mqtt-gateway) follow the link and install all dependencyies 
-   b. Go to the Streams-mqtt-gateway folder 
-   c. Edit the config.json file and update the host name
-   d Start the Stream-mqtt-gatway
+    a. Install [Streams-mqtt-gateway](https://github.com/iot2tangle/Streams-mqtt-gateway) follow the link and install all dependencyies 
+    b. Go to the Streams-mqtt-gateway folder 
+    c. Edit the config.json file and update the host name
+    d. Start the Stream-mqtt-gatway
      - $ cargo run --release
      - Copy the return seed for verification in tangle
-   e. ** Install mqtt python library
+    e. ** Install mqtt python library
        - $ sudo pip install phao-mqtt
-   f. ** Install [pyota](https://github.com/iotaledger/iota.py) - if python2 is default try to install 
+    f. ** Install [pyota](https://github.com/iotaledger/iota.py) - if python2 is default try to install 
        - $ "sudo pip3 install pyota"
-   g. ** Clone our [project repo](https://github.com/rgkrishnas/Tangle-enabled-Real-time-Water-Distribution)
-   h. Open another console and go to smart metering project directory "Tangle-enabled-Real-time ..../src" in Pi 
-   i. Edit the config.py file and update the MQTT host name, user id, password and message topic
-   j. Run the below command for water consumption reading and auto payment
-   - $ python3 waterflowsensor.py 
+    g. ** Clone our [project repo](https://github.com/rgkrishnas/Tangle-enabled-Real-time-Water-Distribution)
+    h. Open another console and go to smart metering project directory "Tangle-enabled-Real-time ..../src" in Pi 
+    i. Edit the config.py file and update the MQTT host name, user id, password and message topic
+    j. Run the below command for water consumption reading and auto payment
+      - $ python3 waterflowsensor.py 
    5. Open the Valve which is connected in the wafter flow sensor (once the water flow is happened you could see the consumed water quantity in liters)
    6. A payment request will be initiated based on some liters/gallon threashold value
    7. Edge device will make the payment with the real-time consumed water.  
