@@ -10,7 +10,7 @@
    # Red wire to Pi 5V
    # Black wire to Pi GND
    # Yellow wire to Pi GPIO23
-#### Currently 1i is defined for 1 liter of water (just for PoC), we will continue to enhance in further for gallons as well as the whole consumption logic.
+#### Currently 1i is defined for 1 litre of water (just for PoC), we will continue to enhance in further for gallons as well as the whole consumption logic.
    
 import paho.mqtt.client as mqttClient
 import time
@@ -61,7 +61,7 @@ GPIO.add_event_detect(FLOW_SENSOR, GPIO.FALLING, callback=countPulse)
 
 ### The below function will publish the data into MQTT for I2T through "streams-mqtt-gateway" module
 def publish2mq(value):
-    #e.g. value ='{ "iot2tangle": [ { "sensor": "waterconsumed", "data": ["10 liters"] } ], "device": "DEVICE_ID_1", "timestamp": '+str(time.time())+' }'
+    #e.g. value ='{ "iot2tangle": [ { "sensor": "waterconsumed", "data": ["10 litres"] } ], "device": "DEVICE_ID_1", "timestamp": '+str(time.time())+' }'
     client.publish(config.topic,value)
 while True:
     try:
