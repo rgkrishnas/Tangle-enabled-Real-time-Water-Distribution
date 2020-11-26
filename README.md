@@ -39,11 +39,11 @@ The Waterflow sensors stream waterflow to a processing unit(Raspberry Pi used in
        - $ cargo run --release
        - Copy the return seed for verification in tangle
        ![Output will be like](images/Screenshot1.2_streams-mqtt.JPG)
-     * ** Install mqtt python library
+     * **Install mqtt python library
        - $ sudo pip install phao-mqtt
      * Install [pyota](https://github.com/iotaledger/iota.py) - if python2 is default try to install 
        - $ "sudo pip3 install pyota"
-     * Clone our [project repo](https://github.com/rgkrishnas/Tangle-enabled-Real-time-Water-Distribution)
+     * **Clone our [project repo](https://github.com/rgkrishnas/Tangle-enabled-Real-time-Water-Distribution)
      * Open another console and go to smart metering project directory "Tangle-enabled-Real-time ..../src" in Pi 
      * Edit the config.py file and update the MQTT host name, user id, password and message topic
      * Run the below command for water consumption reading and auto payment
